@@ -4,6 +4,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -73,8 +74,6 @@ public class Main {
         concurrentHashMap.put("不只Java-1", 1);
         concurrentHashMap.put("不只Java-2", 2);
         concurrentHashMap.put("不只Java-3", 3);
-
-        ReentrantLock
 
         Set set = concurrentHashMap.entrySet();
         Iterator iterator = set.iterator();
