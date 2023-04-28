@@ -95,11 +95,8 @@ class Solution {
 public class Sort {
     public static void main(String[] args) {
         int[] arr = new int[]{9, 5, 3, 13, 4, 12, 42, 2, 0, 1};
+        
         Solution solution = new Solution();
-        int len = arr.length;
-
-        // solution.quickSort(arr, 0, len - 1);
-        // solution.radixSort(arr);
         solution.heapSort(arr);
 
         System.out.println(Arrays.toString(arr));

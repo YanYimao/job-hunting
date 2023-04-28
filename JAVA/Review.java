@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 public class Review {
     public static void main(String[] args) {
         // Integer
-        int n = Integer.parseInt("017");
+        int n = Integer.valueOf("017");
         int tmp = Integer.MAX_VALUE;
         // String
         String str = 123 + "abcdef ";
