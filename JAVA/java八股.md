@@ -32,4 +32,3 @@
 ## Spring
 1. 区分 BeanFactory 和 ApplicationContext？
 2. 区分构造函数注入和 setter 注入
-3. 
